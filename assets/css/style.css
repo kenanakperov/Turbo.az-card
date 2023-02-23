@@ -1,0 +1,51 @@
+.product{
+    position: relative;
+    display: inline-block;
+    width: 229px;
+    height: 266px;
+}
+img{
+    width: 229px;
+    height: 171px;
+}
+.product .price{
+    font-size: 18px;  
+    font-weight: 600; 
+    color: black;
+}
+.product .car-name{
+    margin-bottom: 1px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+.product .about{
+    font-size: 16px;
+    color: black;
+}
+.product .date{
+    font-size: 14px;
+    line-height: 17px;
+    color: #8d94ad;
+}
+.link{
+    text-decoration: none;
+}
+.heart{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+}
+.exchange{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: green;
+}
+.vip{
+    position: absolute;
+    bottom: 100px;
+    right: 5px;
+    color: red;
+}
